@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="user">Email</string>
+    <string name="pass">Password</string>
+    <string name="password">Enter password</string>
+    <string name="password_con">Enter confirm password</string>
+    <string name="login">Login</string>
+    <string name="welcome">Welcome</string>
+    <string name="name">Enter name</string>
+    <string name="phone">Enter phone number</string>
+    <string name="age">Enter age</string>
+    <string name="aadhar">Enter aadhar card no</string>
+    <string name="address">Enter address</string>
+    <string name="signuptext">Do not have an account ? Signup</string>
+    <string name="usersignup">Enter email</string>
+    <string name="signup">Signup</string>
+    <string name="logintext">Already signup ? Login</string>
+    <string name="title_mail">Email</string>
+    <string name="title_no">Phone no</string>
+    <string name="title_aadhar">Aadhar no</string>
+    <string name="title_add">Address</string>
+    <string name="title_username">Username</string>
+    <string name="title_age">Age</string>
+    <string name="email_required">Email is required</string>
+    <string name="logout">Logout</string>
+    <string name="name_input">Enter name</string>
+    <string name="email_input">Enter email</string>
+    <string name="age_input">Enter age</string>
+    <string name="phone_input">Enter phone no</string>
+    <string name="aadhar_input">Enter aadhar no</string>
+    <string name="address_input">Enter address</string>
+    <string name="save">Update</string>
+    <string name="cancel">Cancel</string>
+
+
+</resources>

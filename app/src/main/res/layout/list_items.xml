@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/startingDate_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="5dp"
+            app:contentPadding="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/nameList"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:textStyle="bold" />
+
+
+                </RelativeLayout>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/darker_gray">
+
+                </TableRow>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:id="@+id/idlist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/email_input" />
+
+                    <TextView
+                        android:id="@+id/genderlist"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+
+                    <TextView
+                        android:id="@+id/addresslist"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+</RelativeLayout>

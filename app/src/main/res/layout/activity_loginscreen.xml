@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/textstyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:text="@string/login"
+            android:textSize="30sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+
+            <android.support.design.widget.TextInputLayout
+                style="@style/textlable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/user">
+
+                <EditText
+                    android:id="@+id/name"
+                    style="@style/textstyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableLeft="@drawable/userico"
+                    android:drawablePadding="20dp"
+                    android:drawableStart="@drawable/userico"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress"
+                    app:backgroundTint="@color/atomic" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                style="@style/textlable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/pass">
+
+                <EditText
+                    android:id="@+id/password"
+                    style="@style/textstyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:drawableLeft="@drawable/lockico"
+                    android:drawablePadding="20dp"
+                    android:drawableStart="@drawable/lockico"
+                    android:imeOptions="actionDone"
+                    android:inputType="textPassword"
+                    app:backgroundTint="@color/atomic" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/login"
+                style="@style/buttonstyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:ems="10"
+                android:text="@string/login" />
+
+            <TextView
+                android:id="@+id/singuppage"
+                style="@style/textstyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="65dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/signuptext"
+                android:textColor="@color/makara"
+                android:textSize="16sp" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"></TableRow>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

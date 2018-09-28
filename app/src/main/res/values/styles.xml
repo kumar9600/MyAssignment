@@ -1,0 +1,61 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/atomic</item>
+        <item name="colorPrimaryDark">@color/atomic</item>
+        <item name="colorAccent">@color/bittersweet</item>
+        <item name="android:windowBackground">@color/aliceblue</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <style name="textstyle">
+        <item name="android:textColor">@color/makara</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textlable" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/makara</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/atomic</item>
+        <item name="colorControlNormal">@color/atomic</item>
+        <item name="colorControlActivated">@color/atomic</item>
+    </style>
+
+    <style name="buttonstyle" parent="@android:style/Widget.Holo.Button">
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/aliceblue</item>
+        <item name="android:background">@drawable/box</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="card_style" parent="CardView">
+       <!-- <item name="cardBackgroundColor">@color/a</item>-->
+        <item name="android:clickable">true</item>
+        <item name="cardBackgroundColor">@android:color/white</item>
+        <item name="cardCornerRadius">7dp</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:layout_marginRight">1dp</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="cardElevation">7dp</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Dark.Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorAccent">@color/aliceblue</item>
+        <item name="android:textColorPrimary">@color/bittersweet</item>
+        <item name="android:background">@color/aliceblue</item>
+        <item name="colorControlNormal">@color/aliceblue</item>
+
+        <item name="colorControlActivated">@color/aliceblue</item>
+        <item name="colorControlHighlight">@color/aliceblue</item>
+    </style>
+</resources>

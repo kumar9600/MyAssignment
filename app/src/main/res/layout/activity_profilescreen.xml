@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/atomic">
+
+
+                    <ImageView
+                        android:id="@+id/profileimage"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="40dp"
+                        android:background="@drawable/circle"
+                        android:src="@drawable/aadharico" />
+
+                    <TextView
+                        android:id="@+id/profileusername"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/profileimage"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginTop="10dp"
+                        android:text="vazhavanthakumar"
+                        android:textColor="@color/aliceblue"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/textstyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/title_mail"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/profilemailid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="vazhavanthakumar@gmail.com"
+                        android:textColor="@android:color/darker_gray"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/textstyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/title_age"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/profileage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="21"
+                        android:textColor="@android:color/darker_gray"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/textstyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/title_no"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/phoneNo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text=""
+                        android:textColor="@android:color/darker_gray"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/aadharcontainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/textstyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/title_aadhar"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/profileaadhar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text=""
+                        android:textColor="@android:color/darker_gray"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/textstyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/title_add"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/profileaddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="21 ,c poothathar kovil street,udayarpatti,tirunelveli, 627001"
+                        android:textColor="@android:color/darker_gray"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/showList"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        style="@style/buttonstyle"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:text="Show list"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/editico"
+        android:tint="@color/aliceblue" />
+</RelativeLayout>
