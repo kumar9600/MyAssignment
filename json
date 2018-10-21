@@ -1,0 +1,37 @@
+{
+"response":"success",
+"stories":[
+{
+"story_id":"325435",
+"title":"Lorem Ipsum is simply dummy text ",
+"short_desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+"images":["image1.jpg","img2.jpg","img3.png"],
+"from_name":"Saanvi Dutta",
+"from_designation":"Class Teacher",
+"from_thumpImg":"thump.jpg",
+"to":"Class IV, Section C",
+"date":"Sep 10,2018"
+},
+{
+"story_id":"325435",
+"title":"Lorem Ipsum is simply dummy text ",
+"short_desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+"images":["image1.jpg","img2.jpg","img3.png"],
+"from_name":"Saanvi Dutta",
+"from_designation":"Class Teacher",
+"from_thumpImg":"thump.jpg",
+"to":"Class IV, Section C",
+"date":"Sep 10,2018"
+},
+{
+"story_id":"325435",
+"title":"Lorem Ipsum is simply dummy text ",
+"short_desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+"images":["image1.jpg","img2.jpg","img3.png"],
+"from_name":"Saanvi Dutta",
+"from_designation":"Class Teacher",
+"from_thumpImg":"thump.jpg",
+"to":"Class IV, Section C",
+"date":"Sep 10,2018"
+}]
+}
