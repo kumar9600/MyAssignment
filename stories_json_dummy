@@ -5,10 +5,10 @@
 "story_id":"325435",
 "title":"Lorem Ipsum is simply dummy text ",
 "short_desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
-"images":["image1.jpg","img2.jpg","img3.png"],
+"images":["https://api.androidhive.info/feed/img/nat.jpg"],
 "from_name":"Saanvi Dutta",
 "from_designation":"Class Teacher",
-"from_thumpImg":"thump.jpg",
+"from_thumpImg":"https://api.androidhive.info/feed/img/cosmos.jpg",
 "to":"Class IV, Section C",
 "date":"Sep 10,2018"
 },
@@ -16,10 +16,10 @@
 "story_id":"325435",
 "title":"Lorem Ipsum is simply dummy text ",
 "short_desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
-"images":["image1.jpg","img2.jpg","img3.png"],
+"images":["https://api.androidhive.info/feed/img/time.png"],
 "from_name":"Saanvi Dutta",
 "from_designation":"Class Teacher",
-"from_thumpImg":"thump.jpg",
+"from_thumpImg":"https://api.androidhive.info/feed/img/time_best.jpg",
 "to":"Class IV, Section C",
 "date":"Sep 10,2018"
 },
@@ -27,10 +27,10 @@
 "story_id":"325435",
 "title":"Lorem Ipsum is simply dummy text ",
 "short_desc":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
-"images":["image1.jpg","img2.jpg","img3.png"],
+"images":["https://api.androidhive.info/feed/img/discovery.jpg"],
 "from_name":"Saanvi Dutta",
 "from_designation":"Class Teacher",
-"from_thumpImg":"thump.jpg",
+"from_thumpImg":"https://api.androidhive.info/feed/img/discovery_mos.jpg",
 "to":"Class IV, Section C",
 "date":"Sep 10,2018"
 }]
